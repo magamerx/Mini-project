@@ -1,0 +1,334 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+
+h1, h2, h3, h4, h5 ,h6{
+  font-family: 'Montserrat-Bold';
+
+}
+
+/* h2{
+  /* font-family: 'Montserrat-Bold'; */
+  /* font-size: 3rem;
+  line-height: 1.5;
+} */
+
+/* h3{
+  /* font-family : 'Montserrat-Bold'; */
+  /* font-weight:bold;
+} */
+
+p{
+  color: #8f8f8f;
+}
+
+/* heading */
+
+.big-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+font-weight:bolder;
+color: #fff;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Containers */
+
+.container-fluid{
+  color: #fff;
+  padding: 7% 15%;
+  /* padding-right: calc(var(--bs-gutter-x) * .5);  */
+/* padding-left: calc(var(--bs-gutter-x) * .5); */
+}
+
+/* Section */
+
+.colored-section{
+  background-color: #ff4c68;
+color: #fff;
+
+}
+
+.white-section{
+background-color: #fff;
+
+
+}
+
+/* Navigation Bar */
+.container-navbar{
+  background-color: #ff4c68;
+}
+
+.navbar{
+padding:0 0 0rem;
+background-color: #ff4c68;
+/* navbar-padding-y: 2.5rem; */
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-item{
+  padding: 0 18px;
+  /* color: white; */
+}
+.nav-link{
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+  color: white;
+}
+
+a.nav-link.active.home{
+  color: white;
+}
+
+/* Title Section */
+
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 10% ;
+}
+
+/* Download Buttons */
+
+.download-button{
+  width: 25%;
+  margin: 5% 3% 5% 0;
+  margin-left: 140px;
+
+}
+
+/* Title Image */
+
+.title-image{
+  /* position: absolute; */
+  /* right: 20%; */
+  /* transform: rotate(25deg); */
+  /* width: 340px; */
+
+    width: 632px;
+    height: 371px;
+
+}
+
+/* Features Section*/
+
+#features{
+  background-color: #fff;
+  /* padding: 7% 15%; */
+  position: relative;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 5%;
+  color:black;
+  /* text-align: center; */
+}
+
+/* Testimonials Section */
+.btn-wd{
+  /* display: block; */
+  width: 100%;
+}
+.carousel-item{
+  /* padding: 7% 15%; */
+
+}
+
+#press{
+    background-color:black;
+    /* padding-bottom: 3%; */
+    /* text-align: center; */
+}
+
+.press-logo{
+  margin: 20px 20px 50px;
+  width: 5%;
+}
+
+/* Pricing Section */
+
+/* .card{
+  display: inline-block;
+} */
+
+
+
+#pricing{
+  padding: 100px;
+  /* text-align: center; */
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.img-up{
+  width: 120px;
+}
+
+.heading-up{
+  color: black;
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  /* color: #fff; */
+  /* padding: 7% 15%; */
+  /* text-align: center; */
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  /* border-radius: 100%; */
+  margin: 20px;
+  width: 10%;
+}
+
+.calender-img{
+  width: 120px;
+  height: 120px;
+}
+
+/* CTA Section */
+
+/* #cta{
+  background-color: #ff4c68;
+  color: #fff;
+  /* padding: 7% 15%; */
+  /* text-align: center; */
+/* } */
+
+/* .cta-heading{
+  font-family:"Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+} */
+
+/* Footer Section */
+
+#footer{
+  /* padding: 7% 15%; */
+  /* text-align: center; */
+}
+
+@media (max-width: 1000px) {
+
+#title{
+  text-align: center;
+}
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Contact */
+
+
+/* Contact Section */
+#contact{
+  position: relative;
+  background-color: #ff4c68;
+  color: white;
+}
+/* #contact::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  background: url('images/contact.jpg') no-repeat center center/cover;
+
+} */
+#contact-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+} 
+
+#contact-box form{
+  width: 40%;
+}
+
+#contact-box label{
+ font-size: 1.3rem;
+ font-family: 'Bree Serif', serif;
+
+}
+
+
+footer{
+  background: black;
+  color: white;
+  padding: 9px 20px;
+}
+
+/* Utility Classes */
+/* .h-primary{
+  font-family: 'Bree Serif', serif;
+  font-size: 3.8rem;
+  padding: 12px;
+}
+
+.h-secondary{
+  font-family: 'Bree Serif', serif;
+  font-size: 2.3rem;
+  padding: 12px;
+}
+
+.btn{
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor:pointer;
+}
+
+.center{
+  text-align: center;
+} */
